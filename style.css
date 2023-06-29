@@ -145,8 +145,8 @@ span{
     left: -20px;
     position: relative;
     margin-inline-start: 30px;
-    background: linear-gradient(to right, #E2E9F0, #E2E9F0 )no-repeat;
-    background-size:37% 100%;
+    background: linear-gradient(to right,#E2E9F0,rgba(255, 255, 255, 0));
+    transition: background-color 0.5s;
 }
 
 .linkchain{
