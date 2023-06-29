@@ -7,6 +7,7 @@
     <title>First assignment | Gloria Ngbea</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div class="hero">
@@ -110,7 +111,7 @@
             </div>
         </div>
     </section>
-    <section class="box">
+    <section class="box" data-aos="fade-in" data-aos-duration="1000">
         <div class="threebox">
             <div class="boxone">
                 <h3>Basic</h3>
@@ -131,7 +132,7 @@
         <button class="btn6">Select Pricing</button>
     </section>
     <!--Form section-->
-    <section class="formsection">
+    <section class="formsection" data-aos="fade-right" data-aos-duration="1000">
         <div class="formbg">
             <div class="formcard">
                 <form>
@@ -148,7 +149,7 @@
             </div>
         </div>
     </section>
-    <section class="copy">
+    <section class="copy" data-aos="fade-left" data-aos-duration="1000">
         <div class="faqs">
            <img src="./img/img5.png"> 
         </div>
@@ -160,5 +161,7 @@
     <button class="btnlast">Get Started</button>
     </section>
 </div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init();</script> 
 </body>
 </html>
