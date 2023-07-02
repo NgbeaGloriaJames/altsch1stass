@@ -344,7 +344,7 @@ h2{
     margin-block-start: -10px;
     width: 150px;
     color: white;
-    font-family: "gilroy-bold";
+    font-family: 'gilroy-bold', sans-serif;
     font-size: 12px;
   }
    /* form section */
@@ -384,13 +384,16 @@ h2{
       margin-inline-start: 25px;
       gap:10px;
     }
-    #secondform{
-      text-align: start;
-      padding-inline-start: 10px;
+    .secondselect{
+      padding-inline-start: 5px;
       color:#0065FE;
       width: 145px;
       font-size: 10px;
-    }
+      background-color: white;
+      border: 1px #005AE2 solid;
+      border-radius: 10px;
+      text-align:start;  
+      }
     #typealias{
       text-align: start;
       padding-inline-start: 10px;
@@ -411,6 +414,8 @@ h2{
       background-color: #005AE2;
       color: white;
       border: 1px #005AE2 solid;
+      font-family: 'gilroy-bold', sans-serif;
+
     }
     .btnp{
       text-align:start;
